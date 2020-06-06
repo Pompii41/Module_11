@@ -1,0 +1,194 @@
+.conteiner {
+
+  background-image: linear-gradient(rgb(243, 129, 129, 0.9),
+      rgb(252, 227, 138, 0.9)),
+    url(../img/fone/fone.jpg);
+  background-size: cover;
+
+}
+
+@media (min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .conteiner {
+
+    background-image: linear-gradient(rgb(243, 129, 129, 0.9),
+        rgb(252, 227, 138, 0.9)),
+      url(../img/fone/fone@2x-min.jpg);
+    background-size: cover;
+
+  }
+}
+
+.conteiner {
+  padding: 40px 0px 230px;
+  min-width: 1201px;
+  margin: auto;
+}
+
+.nav_conteiner {
+  display: flex;
+  justify-content: space-between;
+  width: 611px;
+  align-items: center;
+}
+
+.nav_box {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.nav_item {
+  display: flex;
+  width: 502px;
+  justify-content: space-between;
+}
+
+.icon-nav {
+  fill: #ffffff;
+}
+
+.icon-nav:hover {
+  fill: #fce38a;
+  transition: linear 3c;
+}
+
+.btn_icon {
+  display: flex;
+  width: 78px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.nav_item_link {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  padding: 10px;
+}
+
+.nav_item_link:hover {
+  content: "";
+  border-bottom: 3px solid #fce38a;
+  width: 50px;
+  height: 3px;
+  margin: 0 auto;
+  color: #fce38a;
+  padding: 10px;
+  transition: all 0.3s;
+}
+
+.title_decoration {
+  font-size: 72px;
+  font-family: "Kaushan Script", cursive;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.title_header {
+  width: 840px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 150px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 0.933;
+  text-align: center;
+  padding-top: 170px;
+  margin-bottom: 125px;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title_to {
+  font-size: 150px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.933;
+  text-align: center;
+}
+
+.btn_title {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  border: 3px solid rgb(255, 255, 255);
+  padding: 20px 90px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  align-items: center;
+  background: transparent;
+  margin: 0 auto;
+  display: block;
+}
+
+.title_section {
+
+
+  width: 320px;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.section_main {
+  width: 1202px;
+  margin: 0 auto;
+}
+
+.title_section::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+  margin: 0 auto;
+  display: block;
+  justify-content: center;
+
+}
+
+.title_section_item {
+  font-size: 24px;
+  font-family: "Kaushan Script", cursive;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+  display: block;
+  padding-bottom: 25px;
+}
+
+.title_tosection--item {
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  display: block;
+  padding-bottom: 40px;
+}

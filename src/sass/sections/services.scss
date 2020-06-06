@@ -1,0 +1,53 @@
+.conteiner_services {
+  padding: 50px 0px 100px;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1201px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+.servicec_item {
+  width: 400px;
+  display: flex;
+}
+
+.description {
+  width: 340px;
+}
+
+.icon_services {
+  width: 60px;
+  margin: 0 auto;
+}
+
+.icon_services--item {
+  width: 32px;
+  height: 32px;
+  fill: rgb(149, 225, 211);
+
+}
+
+.title_services {
+  margin-bottom: 22px;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.subtitle {
+  width: 300px;
+  padding-bottom: 100px;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(153, 153, 153);
+  line-height: 1.6;
+  text-align: left;
+}
