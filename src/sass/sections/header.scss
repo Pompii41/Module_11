@@ -4,7 +4,9 @@
       rgb(252, 227, 138, 0.9)),
     url(../img/fone/fone.jpg);
   background-size: cover;
-
+  padding: 40px 0px 230px;
+  min-width: 1201px;
+  margin: auto;
 }
 
 @media (min-resolution: 192dpi),
@@ -19,11 +21,7 @@
   }
 }
 
-.conteiner {
-  padding: 40px 0px 230px;
-  min-width: 1201px;
-  margin: auto;
-}
+
 
 .nav_conteiner {
   display: flex;
@@ -76,18 +74,19 @@
   text-transform: uppercase;
   line-height: 1.2;
   padding: 10px;
+
+  .nav_item_link:hover {
+    content: "";
+    border-bottom: 3px solid #fce38a;
+    width: 50px;
+    height: 3px;
+    margin: 0 auto;
+    color: #fce38a;
+    padding: 10px;
+    transition: all 0.3s;
+  }
 }
 
-.nav_item_link:hover {
-  content: "";
-  border-bottom: 3px solid #fce38a;
-  width: 50px;
-  height: 3px;
-  margin: 0 auto;
-  color: #fce38a;
-  padding: 10px;
-  transition: all 0.3s;
-}
 
 .title_decoration {
   font-size: 72px;
@@ -116,17 +115,19 @@
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: center;
+
+  &_to {
+    font-size: 150px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.933;
+    text-align: center;
+  }
 }
 
-.title_to {
-  font-size: 150px;
-  font-family: "Montserrat", sans-serif;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 0.933;
-  text-align: center;
-}
+
 
 .btn_title {
   font-size: 14px;
@@ -153,33 +154,30 @@
   margin: 0 auto;
   justify-content: center;
   text-align: center;
+
+  .title_section::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+
+  }
+
+  &_item {
+    font-size: 24px;
+    font-family: "Kaushan Script", cursive;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+    display: block;
+    padding-bottom: 25px;
+  }
+
 }
 
-.section_main {
-  width: 1202px;
-  margin: 0 auto;
-}
-
-.title_section::after {
-  content: "";
-  width: 60px;
-  height: 3px;
-  background-color: #f38181;
-  margin: 0 auto;
-  display: block;
-  justify-content: center;
-
-}
-
-.title_section_item {
-  font-size: 24px;
-  font-family: "Kaushan Script", cursive;
-  color: #333333;
-  line-height: 1.2;
-  text-align: center;
-  display: block;
-  padding-bottom: 25px;
-}
 
 .title_tosection--item {
   font-size: 30px;
@@ -191,4 +189,9 @@
   text-align: center;
   display: block;
   padding-bottom: 40px;
+}
+
+.section_main {
+  width: 1202px;
+  margin: 0 auto;
 }

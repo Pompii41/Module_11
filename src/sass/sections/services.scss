@@ -10,12 +10,13 @@
   width: 1201px;
   margin: 0 auto;
   padding-top: 65px;
+
+  &_item {
+    width: 400px;
+    display: flex;
+  }
 }
 
-.servicec_item {
-  width: 400px;
-  display: flex;
-}
 
 .description {
   width: 340px;
@@ -24,14 +25,16 @@
 .icon_services {
   width: 60px;
   margin: 0 auto;
+
+  &--item {
+    width: 32px;
+    height: 32px;
+    fill: rgb(149, 225, 211);
+
+  }
 }
 
-.icon_services--item {
-  width: 32px;
-  height: 32px;
-  fill: rgb(149, 225, 211);
 
-}
 
 .title_services {
   margin-bottom: 22px;

@@ -1,16 +1,21 @@
-footer {
+.footer {
   align-content: center;
-}
 
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  width: 1200px;
-  margin: 0 auto;
-  border-top: 1px solid rgb(229, 229, 229);
-  padding-top: 25px;
-  align-items: center;
-  padding-bottom: 25px;
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    border-top: 1px solid rgb(229, 229, 229);
+    padding-top: 25px;
+    align-items: center;
+    padding-bottom: 25px;
+
+    & a:hover {
+      text-shadow: 0 0 4px #f38181;
+      transition: all 0.3s ease;
+    }
+  }
 }
 
 .text-bottom {
@@ -20,10 +25,7 @@ footer {
   line-height: 1.2;
 }
 
-.footer-content a:hover {
-  text-shadow: 0 0 4px #f38181;
-  transition: all 0.3s ease;
-}
+
 
 .link-bottom {
   color: #f38181;
@@ -60,44 +62,12 @@ footer {
   height: 40px;
   outline: none;
   padding: 15px;
-}
 
-.input-bottom::-webkit-input-placeholder {
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
-  color: rgb(204, 204, 204);
-  font-style: italic;
-  line-height: 1.6;
-}
-
-.input-bottom::-moz-placeholder {
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
-  color: rgb(204, 204, 204);
-  font-style: italic;
-  line-height: 1.6;
-}
-
-.input-bottom:-ms-input-placeholder {
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
-  color: rgb(204, 204, 204);
-  font-style: italic;
-  line-height: 1.6;
-}
-
-.input-bottom::-ms-input-placeholder {
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
-  color: rgb(204, 204, 204);
-  font-style: italic;
-  line-height: 1.6;
-}
-
-.input-bottom::placeholder {
-  font-size: 15px;
-  font-family: "Roboto", sans-serif;
-  color: rgb(204, 204, 204);
-  font-style: italic;
-  line-height: 1.6;
+  &::placeholder {
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(204, 204, 204);
+    font-style: italic;
+    line-height: 1.6;
+  }
 }
