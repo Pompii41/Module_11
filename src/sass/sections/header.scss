@@ -1,8 +1,7 @@
 .conteiner {
 
-  background-image: linear-gradient(rgb(243, 129, 129, 0.9),
-      rgb(252, 227, 138, 0.9)),
-    url(../img/fone/fone.jpg);
+  background-image: linear-gradient($orang-gradient, $yelow-gradient),
+    url(../images/fone/fone.jpg);
   background-size: cover;
   padding: 40px 0px 230px;
   min-width: 1201px;
@@ -13,9 +12,8 @@
 (min-resolution: 2dppx) {
   .conteiner {
 
-    background-image: linear-gradient(rgb(243, 129, 129, 0.9),
-        rgb(252, 227, 138, 0.9)),
-      url(../img/fone/fone@2x-min.jpg);
+    background-image: linear-gradient($orang-gradient, $yelow-gradient),
+      url(../images/fone/fone@2x-min.jpg);
     background-size: cover;
 
   }
@@ -44,11 +42,11 @@
 }
 
 .icon-nav {
-  fill: #ffffff;
+  fill: $white;
 }
 
 .icon-nav:hover {
-  fill: #fce38a;
+  fill: $yelow;
   transition: linear 3c;
 }
 
@@ -61,27 +59,27 @@
 
 .logo {
   font-size: 30px;
-  font-family: "Montserrat", sans-serif;
-  color: rgb(255, 255, 255);
+  font-family: $main-font;
+  color: $white;
   font-weight: bold;
   line-height: 1.2;
 }
 
 .nav_item_link {
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
-  color: rgb(255, 255, 255);
+  font-family: $main-font;
+  color: $white;
   text-transform: uppercase;
   line-height: 1.2;
   padding: 10px;
 
-  .nav_item_link:hover {
+  &:hover {
     content: "";
-    border-bottom: 3px solid #fce38a;
+    border-bottom: 3px solid $yelow;
     width: 50px;
     height: 3px;
     margin: 0 auto;
-    color: #fce38a;
+    color: $yelow;
     padding: 10px;
     transition: all 0.3s;
   }
@@ -90,7 +88,7 @@
 
 .title_decoration {
   font-size: 72px;
-  font-family: "Kaushan Script", cursive;
+  font-family: $decorativ-font;
   color: rgb(255, 255, 255);
   line-height: 1.2;
   text-align: center;
@@ -104,8 +102,8 @@
 
 .title {
   font-size: 150px;
-  font-family: "Montserrat", sans-serif;
-  color: rgb(255, 255, 255);
+  font-family: $main-font;
+  color: $white;
   font-weight: bold;
   line-height: 0.933;
   text-align: center;
@@ -118,8 +116,8 @@
 
   &_to {
     font-size: 150px;
-    font-family: "Montserrat", sans-serif;
-    color: rgb(255, 255, 255);
+    font-family: $main-font;
+    color: $white;
     font-weight: bold;
     text-transform: uppercase;
     line-height: 0.933;
@@ -131,14 +129,14 @@
 
 .btn_title {
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: $main-font;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
   text-align: center;
-  border: 3px solid rgb(255, 255, 255);
+  border: 3px solid $white;
   padding: 20px 90px;
-  color: #ffffff;
+  color: $white;
   cursor: pointer;
   outline: none;
   align-items: center;
@@ -147,42 +145,13 @@
   display: block;
 }
 
-.title_section {
 
-
-  width: 320px;
-  margin: 0 auto;
-  justify-content: center;
-  text-align: center;
-
-  .title_section::after {
-    content: "";
-    width: 60px;
-    height: 3px;
-    background-color: #f38181;
-    margin: 0 auto;
-    display: block;
-    justify-content: center;
-
-  }
-
-  &_item {
-    font-size: 24px;
-    font-family: "Kaushan Script", cursive;
-    color: #333333;
-    line-height: 1.2;
-    text-align: center;
-    display: block;
-    padding-bottom: 25px;
-  }
-
-}
 
 
 .title_tosection--item {
   font-size: 30px;
-  font-family: "Montserrat", sans-serif;
-  color: rgb(51, 51, 51);
+  font-family: $main-font;
+  color: $black;
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.2;
